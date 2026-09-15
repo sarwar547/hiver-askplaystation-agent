@@ -1,0 +1,8 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+twcs.csv
+*.zip
+twcs_applesupport.csv

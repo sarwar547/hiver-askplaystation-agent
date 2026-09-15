@@ -1,0 +1,277 @@
+{
+  "n": 200,
+  "intent_accuracy": 0.895,
+  "intent_macro_f1": 0.8276173859320556,
+  "action_accuracy": 0.95,
+  "intent_report": {
+    "account_access": {
+      "precision": 0.9666666666666667,
+      "recall": 0.8055555555555556,
+      "f1-score": 0.8787878787878788,
+      "support": 36.0
+    },
+    "account_security": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 5.0
+    },
+    "codes_dlc_content": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8888888888888888,
+      "support": 9.0
+    },
+    "console_hardware": {
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9714285714285714,
+      "support": 18.0
+    },
+    "content_availability": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 6.0
+    },
+    "download_installation": {
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.8421052631578947,
+      "support": 11.0
+    },
+    "game_purchase_store": {
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.9090909090909091,
+      "support": 17.0
+    },
+    "network_psn": {
+      "precision": 0.8,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.851063829787234,
+      "support": 22.0
+    },
+    "other": {
+      "precision": 0.9041095890410958,
+      "recall": 0.9850746268656716,
+      "f1-score": 0.9428571428571428,
+      "support": 67.0
+    },
+    "payments_billing": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "ps_plus_subscription": {
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1-score": 0.5714285714285714,
+      "support": 2.0
+    },
+    "refunds": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "accuracy": 0.895,
+    "macro avg": {
+      "precision": 0.8525415398274987,
+      "recall": 0.8730011188856667,
+      "f1-score": 0.8276173859320556,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.9143975456621004,
+      "recall": 0.895,
+      "f1-score": 0.8937812955987648,
+      "support": 200.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      15,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      66,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "labels": [
+    "account_access",
+    "account_security",
+    "codes_dlc_content",
+    "console_hardware",
+    "content_availability",
+    "download_installation",
+    "game_purchase_store",
+    "network_psn",
+    "other",
+    "payments_billing",
+    "ps_plus_subscription",
+    "refunds"
+  ]
+}
